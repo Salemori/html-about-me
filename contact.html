@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <h2>My Contact Details</h2>
+    <p>My Fictional Address</p>
+    <p>08123456789</p>
+    <p>rachealogbe08@gmail.com</p>
+    <hr>
+    <hr>
+    <!-- <br> -->
+
+    <form>
+        <fieldset>
+            <legend>
+                <h3><i>Your Information</i></h3>
+            </legend>
+
+            <label for="name"><b>Name:</b></label>
+            <input type="text" id="name" name="Name"><br>
+
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="Email"><br>
+
+            <label for="contact"><b>Phone Number:</b></label>
+            <input type="tel" id="contact" name="PhoneNumber"><br>
+
+            <label for="gender"><b>Gender:</b></label><br>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="Gender" value="rather not say">
+            <label for="other">Rather Not Say</label><br>
+
+            <label><b>Do you want to sign up?</b></label><br>
+            <input type="radio" id="yes" name="Signup" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="Signup" value="no">
+            <label for="no">No</label><br>
+
+            <label for="car"><b>Favorite Car:</b></label><br>
+            <select id="car" name="FavoriteCar">
+                <!-- <option value="none" selected disabled hidden>Select an Option</option> -->
+                <option value="ferrari">Ferrari</option>
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="ford">Ford</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+            </select><br><br>
+
+            <textarea name="Comments" rows="10" cols="30"
+                placeholder="Please, leave a message"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+<br>
+    <a href="./index.html">Homepage</a>
+</body>
+
+</html>
